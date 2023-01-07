@@ -75,20 +75,8 @@
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
         <repository>
-            <id>nexus</id>
-            <url>https://mvn.lumine.io/repository/maven/</url>
-        </repository>
-        <repository>
             <id>lumine</id>
-            <url>https://mvn.lumine.io/repository/maven-private/</url>
-        </repository>
-        <repository>
-            <id>lumine-snapshots</id>
-            <url>https://mvn.lumine.io/repository/maven-snapshots/</url>
-        </repository> 
-        <repository>
-            <id>lumine-test</id>
-            <url>https://mvn.lumine.io/repository/maven-test/</url>
+            <url>https://mvn.lumine.io/repository/maven/</url>
         </repository>
         <repository>
            <id>paper-repo</id>

@@ -4,12 +4,12 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.lumine</groupId>
   <artifactId>MCCosmetics-API</artifactId>
-  <version>0.8.0-SNAPSHOT</version>
+  <version>0.11.0</version>
   <dependencies>
     <dependency>
       <groupId>io.lumine</groupId>
       <artifactId>LumineUtils</artifactId>
-      <version>1.18-SNAPSHOT</version>
+      <version>1.19-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
@@ -39,20 +39,12 @@
       <url>https://mvn.lumine.io/repository/maven/</url>
     </repository>
     <repository>
-      <id>sk89q-repo</id>
-      <url>https://maven.sk89q.com/repo/</url>
-    </repository>
-    <repository>
       <id>md_5-snapshots</id>
       <url>https://repo.md-5.net/content/repositories/snapshots/</url>
     </repository>
     <repository>
       <id>placeholderapi</id>
       <url>https://repo.extendedclip.com/content/repositories/placeholderapi/</url>
-    </repository>
-    <repository>
-      <id>filoghost-repo</id>
-      <url>https://ci.filoghost.me/plugin/repository/everything/</url>
     </repository>
     <repository>
       <id>papermc</id>

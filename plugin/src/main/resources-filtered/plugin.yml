@@ -12,7 +12,7 @@ softdepend:
 - PlaceholderAPI
 - WorldGuard
 loadbefore: []
-description: The total solution for all things mob-related.
+description: Plugin for adding amazing cosmetics, brought to you by MCModels
 commands:
   mccosmetics:
     description: MCCosmetics admin command

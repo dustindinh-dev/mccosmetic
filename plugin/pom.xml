@@ -82,12 +82,8 @@
     </build>
     <repositories>
         <repository>
-            <id>nexus</id>
+            <id>lumine</id>
             <url>https://mvn.lumine.io/repository/maven/</url>
-        </repository>
-        <repository>
-            <id>lumine-public</id>
-            <url>https://mvn.lumine.io/repository/maven-public/</url>
         </repository>
         <repository>
             <id>spigot-repo</id>
@@ -114,10 +110,6 @@
             </releases>
         </repository>  -->
         <repository>
-            <id>sk89q-repo</id>
-            <url>https://maven.sk89q.com/repo/</url>
-        </repository>
-        <repository>
 		    <id>md_5-public</id>
 		    <url>https://repo.md-5.net/content/groups/public/</url>
 		</repository>
@@ -128,10 +120,6 @@
         <repository>
             <id>placeholderapi</id>
             <url>https://repo.extendedclip.com/content/repositories/placeholderapi/</url>
-        </repository>
-        <repository>
-            <id>filoghost-repo</id>
-            <url>https://ci.filoghost.me/plugin/repository/everything/</url>
         </repository>
         <repository>
             <id>CodeMC</id>
@@ -187,7 +175,7 @@
         <dependency>
             <groupId>com.ticxo.playeranimator</groupId>
             <artifactId>PlayerAnimator</artifactId>
-            <version>R1.2.4</version>
+            <version>R1.2.5</version>
         </dependency>
 
         <!-- Spigot API -->

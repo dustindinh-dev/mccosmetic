@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>MCCosmetics-SQL</artifactId>
-    <parent> 
+    <parent>  
         <groupId>io.lumine</groupId>
         <artifactId>MCCosmetics-Plugin</artifactId>
         <version>${mccosmetics.version}</version>
@@ -16,6 +16,12 @@
     </pluginRepositories>
 
     <dependencies>
+        <dependency>
+            <groupId>io.lumine</groupId>
+            <artifactId>MCCosmetics-API</artifactId>
+            <version>${mccosmetics.version}</version>
+            <scope>provided</scope> 
+        </dependency>
         <dependency> 
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -90,7 +96,7 @@
              
                     <jdbc>
                         <driver>org.mariadb.jdbc.Driver</driver>
-                        <url>jdbc:mariadb://localhost:3306/mythiccraft_test_mccosmetics</url>
+                        <url>jdbc:mariadb://localhost:3306/mythiccraft_test_achievements</url>
                         <user>mythiccraft_tester</user>
                         <password>62e06d5e-6c48-4c40-a070-00949d2a9c6a</password>
                     </jdbc>
@@ -102,13 +108,13 @@
                             <excludes></excludes>
                             <schemata>
                                 <schema>
-                                    <inputSchema>mythiccraft_test_mccosmetics</inputSchema>
+                                    <inputSchema>mythiccraft_test_achievements</inputSchema>
                                     <outputSchemaToDefault>true</outputSchemaToDefault>
                                 </schema>
                             </schemata>
                         </database>
                         <target>
-                            <packageName>io.lumine.cosmetics.storage.sql.mappings</packageName>
+                            <packageName>io.lumine.achievements.storage.sql.jooq</packageName>
                             <directory>../plugin/src/main/java</directory>
                         </target>
                     </generator>
