@@ -225,7 +225,6 @@ public class MCCosmeticsPlugin extends LuminePlugin {
                 version = "v1_19_R2";
             }
         }
-
         
         try {
             final Class<?> clazz = Class.forName("io.lumine.cosmetics.nms.VolatileCodeEnabled_" + version);
