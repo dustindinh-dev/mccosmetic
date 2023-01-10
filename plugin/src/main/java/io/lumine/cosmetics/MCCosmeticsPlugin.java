@@ -218,8 +218,12 @@ public class MCCosmeticsPlugin extends LuminePlugin {
         String packageName = Bukkit.getServer().getClass().getPackage().getName();
         String version = packageName.substring(packageName.lastIndexOf('.') + 1);
 
-        if(version.startsWith("v1_19") && !"1.19-R0.1-SNAPSHOT".equals(Bukkit.getBukkitVersion())) {
-            version = "v1_19_R1_2";
+        if (version.startsWith("v1_19")){
+            if("1.19.2-R0.1-SNAPSHOT".equals(Bukkit.getBukkitVersion())) {
+                version = "v1_19_R1_2";
+            } else if ("1.19.3-R0.1-SNAPSHOT".equals(Bukkit.getBukkitVersion())){
+                version = "v1_19_R2";
+            }
         }
         
         try {
